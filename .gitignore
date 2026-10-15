@@ -361,3 +361,13 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Visual Studio build output (Debug/ and Release/ keep the raylib.dll the exe loads at runtime)
+**/[Dd]ebug/*
+**/[Rr]elease/*
+![Dd]ebug/raylib.dll
+![Rr]elease/raylib.dll
+*.tlog
+*.idb
+*.enc
+*.exe
+desktop.ini
