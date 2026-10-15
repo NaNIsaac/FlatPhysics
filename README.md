@@ -26,8 +26,9 @@ directory (the Visual Studio default).
 - Click on the title screen to start
 - Drag and release the projectile with the left mouse button to launch it
 - Mouse wheel: zoom, arrow keys: pan the camera, `T`: reset the camera
-- `||` button: pause menu
-- `C` / `G`: jump to the game-clear / game-over screen (debug shortcuts)
+- `||` button: pause menu (`Resume`, `Retry`, `Mainmenu`; `Retry` resumes without resetting the scene)
+- `C` / `G`: jump to the game-clear / game-over screen. These debug shortcuts are the only way
+  to reach either screen; the HP bar and remaining-shot counter are drawn but never change.
 
 ## Structure
 
