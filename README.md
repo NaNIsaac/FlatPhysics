@@ -1,5 +1,7 @@
 # FlatPhysics
 
+Moved to games-2023/FlatPhysics (https://github.com/NaNIsaac/games-2023/tree/main/FlatPhysics). This repo is no longer maintained.
+
 A small 2D rigid-body physics engine in C++, with a slingshot game prototype built on it using raylib.
 
 Hobby project from 2023, written with two other contributors.
