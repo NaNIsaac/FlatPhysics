@@ -73,3 +73,8 @@ The game continues in [ShootingGame](https://github.com/NaNIsaac/ShootingGame), 
 engine. `코드구조.pptx` is the code-structure slide deck of the game.
 
 The study group's other repositories are listed in [ShootingGame](https://github.com/NaNIsaac/ShootingGame#2023-spring-study-group).
+
+## License
+
+MIT License, Copyright (c) 2023-2026 NaNIsaac, culee1999 and kimnoa; see [LICENSE](LICENSE). The bundled
+raylib 4.2 (`include/`, `lib/`) keeps its own zlib/libpng license.
