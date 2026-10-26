@@ -71,3 +71,5 @@ The build copies `lib\raylib.dll` into `Debug\`. The window is 1300x864.
 
 The game continues in [ShootingGame](https://github.com/NaNIsaac/ShootingGame), which carries a copy of this
 engine. `코드구조.pptx` is the code-structure slide deck of the game.
+
+The study group's other repositories are listed in [ShootingGame](https://github.com/NaNIsaac/ShootingGame#2023-spring-study-group).
