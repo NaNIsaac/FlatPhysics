@@ -61,7 +61,11 @@ The build copies `lib\raylib.dll` into `Debug\`. The window is 1300x864.
 - Engine: [NaNIsaac](https://github.com/NaNIsaac), alone. Branches `master` (2023-03, the earlier engine
   demo) and `dev` carry only his commits.
 - Slingshot game on the engine, in the branches `game` (default), `Kim`, `Lee` and `Yong`, made on
-  2023-05-25 and 2023-05-26. [culee1999](https://github.com/culee1999) (branch `Lee`: pause/retry screens
+  2023-05-25 and 2023-05-26 by a study group of the 2023 spring semester at Sogang University. Its members first wrote a slingshot game
+  on their own ([kimnoa/2023_1_project](https://github.com/kimnoa/2023_1_project),
+  [culee1999/shooting_game](https://github.com/culee1999/shooting_game), May 2023) and on 2023-05-25 and
+  2023-05-26 moved it onto the engine.
+  [culee1999](https://github.com/culee1999) (branch `Lee`: pause/retry screens
   and background music button), [kimnoa](https://github.com/kimnoa) (branch `Kim`: scoreboard, menu and
   textbox) and NaNIsaac (branch `Yong`).
 
