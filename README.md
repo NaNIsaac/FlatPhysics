@@ -1,14 +1,19 @@
 # FlatPhysics
 
-Moved to games-2023/FlatPhysics (https://github.com/NaNIsaac/games-2023/tree/main/FlatPhysics). This repo is no longer maintained.
-
 A small 2D rigid-body physics engine in C++, with a slingshot game prototype built on it using raylib.
 
-Hobby project from 2023, written with two other contributors.
+Hobby project from 2023. The engine was written by NaNIsaac alone; see
+[Contributors and branches](#contributors-and-branches) for the game branches.
 
 The engine supports circles, boxes, convex polygons and triangulated concave shapes, with
 AABB broad phase, SAT collision detection and impulse-based resolution (rotation and friction).
 The `game` branch (default) holds the slingshot prototype; `master` holds the earlier engine demo.
+
+## Screenshots
+
+![Title screen](docs/media/screenshot-1.png) ![Slingshot shot in flight](docs/media/screenshot-2.png)
+
+![Short gameplay recording](docs/media/demo.gif)
 
 ## Requirements
 
@@ -53,14 +58,23 @@ The build copies `lib\raylib.dll` into `Debug\`. The window is 1300x864.
 
 ## Contributors and branches
 
-Commits come from three authors: Isaac Yong (branch `Yong`), `culee1999` (branch `Lee`, with the
-pause/retry screens and background music button) and `kimnoa` (branch `Kim`, with the scoreboard, menu
-and textbox). `Dev` and `dev` also exist; `master` holds the earlier engine demo and `game` is the default.
-`코드구조.pptx` is the contributors' code-structure slide deck.
+- Engine: [NaNIsaac](https://github.com/NaNIsaac), alone. Branches `master` (2023-03, the earlier engine
+  demo) and `dev` carry only NaNIsaac's commits.
+- Slingshot game on the engine, in the branches `game` (default), `Kim`, `Lee` and `Yong`, made on
+  2023-05-25 and 2023-05-26 by a study group of the 2023 spring semester at Sogang University. Its members first wrote a slingshot game
+  on their own ([kimnoa/2023_1_project](https://github.com/kimnoa/2023_1_project),
+  [culee1999/shooting_game](https://github.com/culee1999/shooting_game), May 2023) and on 2023-05-25 and
+  2023-05-26 moved it onto the engine.
+  [culee1999](https://github.com/culee1999) (branch `Lee`: pause/retry screens
+  and background music button), [kimnoa](https://github.com/kimnoa) (branch `Kim`: scoreboard, menu and
+  textbox) and NaNIsaac (branch `Yong`).
 
-## Origin
+The game continues in [ShootingGame](https://github.com/NaNIsaac/ShootingGame), which carries a copy of this
+engine. `코드구조.pptx` is the code-structure slide deck of the game.
 
-This repository's history was imported into [games-2023](https://github.com/NaNIsaac/games-2023) as
-`FlatPhysics/` with `git subtree` (games-2023 commit `eef12cd`, from commit `80388e1` here). Apart from
-line endings, the files there are identical to this repository's. [ShootingGame](https://github.com/NaNIsaac/ShootingGame)
-continues from the game prototype on the `game` branch.
+The study group's other repositories are listed in [ShootingGame](https://github.com/NaNIsaac/ShootingGame#2023-spring-study-group).
+
+## License
+
+MIT License, Copyright (c) 2023-2026 NaNIsaac, culee1999 and kimnoa; see [LICENSE](LICENSE). The bundled
+raylib 4.2 (`include/`, `lib/`) keeps its own zlib/libpng license.
